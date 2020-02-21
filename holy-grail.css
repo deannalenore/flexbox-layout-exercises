@@ -1,0 +1,51 @@
+.main-container{
+    border: 5px black solid;
+    font-family: Arial, sans-serif;
+}
+
+.content-container{
+    display:flex;
+    margin: 50px;
+    border: 5px black solid;
+    flex-direction:row;
+    justify-content: center;
+    
+}
+
+#header{ 
+    border: 5px black solid;
+    background-color:lightblue;
+    font-size: 40px;
+    text-align:center;
+    
+}
+
+#menu{
+    border: 5px black solid;
+    background-color: pink;
+    height:auto;
+    width: 100px;
+    align-self:flex-start;
+     
+}
+
+#text{
+    border: 5px black solid;
+    align-self:center;
+
+}
+
+#ad{
+    border: 5px black solid;
+    align-self:flex-end;
+   
+}
+
+#footer{
+    border: 5px black solid;
+    background-color: lightblue;
+    font-size: 40px;
+    text-align:center;
+   
+}
+
